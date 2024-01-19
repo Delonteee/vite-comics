@@ -57,7 +57,6 @@ export default {
 
 <style lang="scss" scoped>
 
-@use '../assets/scss/main.scss' as *;
 @use '../assets/scss/partials/mixins.scss' as *;
 @use '../assets/scss/partials/variables.scss' as *;
 
@@ -71,7 +70,7 @@ header {
 
     div {
         @include img-container;
-        margin: $space-20;
+        margin: $space-20 0;
 
         img {
             @include full-size;
