@@ -53,7 +53,7 @@ export default {
 section {
     background-color: $main-color;
     #blueSection {
-    padding: $space_50 10px;
+    padding: $space_50 $space-10;
     display: flex;
     justify-content: space-between;
     @include container;
