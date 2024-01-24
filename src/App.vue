@@ -14,7 +14,7 @@ export default {
   components: {
     AppHeader,
     AppMain,
-    AppBlueSection
+    AppBlueSection,
     AppFooter,
   },
   methods: {
@@ -39,5 +39,7 @@ export default {
 
 @use "assets/scss/main.scss" as *;
 @import "assets/scss/partials/reset.scss";
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@400;700&family=Oswald:wght@200;400;700&display=swap');
+
 
 </style>

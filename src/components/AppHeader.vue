@@ -45,7 +45,7 @@ export default {
 <template>
     <header>
         <div>
-            <img src="../../public/img/dc-logo.png" alt="Logo">
+            <img src="/public/img/dc-logo.png" alt="Logo">
         </div>
         <nav>
             <ul>
@@ -70,7 +70,7 @@ header {
 
     div {
         @include img-container;
-        margin: $space-20 0;
+        margin: $space-20;
 
         img {
             @include full-size;
@@ -89,7 +89,6 @@ header {
 
             li {
                 display: block;
-                @include my-text;
                 margin: 0 $space-10;
 
                 // SISTEMARE HEIGHT DEI LI CHE NON OCCUPA IL 100%

@@ -13,9 +13,18 @@ export default {
 
 <template>
     <footer>
-        FOOTER
+        <section id="footer-top">
+
+        </section>
+        <section id="footer-bottom">
+            
+        </section>
     </footer>
 </template>
 
 <style lang="scss" scoped>
+
+@use '../assets/scss/partials/mixins.scss' as *;
+@use '../assets/scss/partials/variables.scss' as *;
+
 </style>
